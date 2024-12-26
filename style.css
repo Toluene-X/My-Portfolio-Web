@@ -1162,48 +1162,34 @@ footer p{
     }
     
     .js{
-        background-color: #cddc39;
+        background-color: green;
         animation: js 1s linear forwards;
         /* animation-iteration-count: 3; */
-        animation-duration: 7s;
-        animation-iteration-count: 3;
+        animation-duration: 20s;
     }
     
     .py{
-        background-color: #294dafa9;
+        background-color: yellow;
         animation: py 1s linear forwards;
-        animation-duration: 7s;
-        animation-iteration-count: 3;
+        animation-duration: 20s;
     }
     
     .sql{
-        background-color: rgba(201, 88, 13, 0.61);
+        background-color: blue;
         animation: sql 1s linear forwards;
-        animation-duration: 7s;
-        animation-iteration-count: 3;
-    }
-    
-    .fig{
-        background: linear-gradient(90deg, rgb(201, 88, 13, 0.61), rgb(126, 59, 59), violet, cyan, lightgreen);
-        animation: fig 1s linear forwards;
-        animation-duration: 7s;
-        animation-iteration-count: 3;
+        animation-duration: 20s;
     }
     
     .js span{
-        border: 1px solid #cddc39;
+        border: 1px solid green;
     }
     
     .py span{
-        border: 1px solid #294dafa9;
+        border: 1px solid yellow;
     }
     
     .sql span{
-        border: 1px solid rgba(201, 88, 13, 0.61);
-    }
-    
-    .fig span{
-        border: 1px solid rgb(0, 0, 0);
+        border: 1px solid blue;
     }
     
     #portfolio{
@@ -1440,25 +1426,19 @@ footer p{
     
     @keyframes js{
         100%{
-            width: 70%;
+            width: 97%;
         }
     }
     
     @keyframes py{
         100%{
-            width: 50%;
+            width: 70%;
         }
     }
     
     @keyframes sql{
         100%{
-            width: 20%;
-        }
-    }
-    
-    @keyframes fig{
-        100%{
-            width: 40%;
+            width: 80%;
         }
     }
 }
